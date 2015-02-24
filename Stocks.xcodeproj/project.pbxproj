@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1C4AE8F1A9C3B4200CAF7A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C4AE8E1A9C3B4200CAF7A6 /* main.m */; };
+		B1C4AE971A9C3BCF00CAF7A6 /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C4AE961A9C3BCF00CAF7A6 /* BNRStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		B1C4AE8B1A9C3B4200CAF7A6 /* Stocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C4AE8E1A9C3B4200CAF7A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1C4AE951A9C3BCF00CAF7A6 /* BNRStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStockHolding.h; sourceTree = "<group>"; };
+		B1C4AE961A9C3BCF00CAF7A6 /* BNRStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B1C4AE8E1A9C3B4200CAF7A6 /* main.m */,
+				B1C4AE951A9C3BCF00CAF7A6 /* BNRStockHolding.h */,
+				B1C4AE961A9C3BCF00CAF7A6 /* BNRStockHolding.m */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1C4AE8F1A9C3B4200CAF7A6 /* main.m in Sources */,
+				B1C4AE971A9C3BCF00CAF7A6 /* BNRStockHolding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
