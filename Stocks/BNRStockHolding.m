@@ -22,22 +22,4 @@
 }
 
 
--(void)setPurchaseSharePrice:(float)p
-{
-    _purchaseSharePrice = p;
-}
-
-
--(void)setCurrentSharePrice:(float)c
-{
-    _currentSharePrice = c;
-}
-
-
--(void)setNumberOfShares:(int)n
-{
-    _numberOfShares = n;
-}
-
-
 @end

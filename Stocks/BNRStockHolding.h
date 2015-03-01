@@ -10,19 +10,13 @@
 
 @interface BNRStockHolding : NSObject
 
-{
-    // Instance Variables go here
-    float   _purchaseSharePrice;
-    float   _currentSharePrice;
-    int     _numberOfShares;
-}
-
+@property (nonatomic) float purchaseSharePrice;
+@property (nonatomic) float currentSharePrice;
+@property (nonatomic) int   numberOfShares;
+ 
 // other methods go down here
 - (float)costInDollars;
 - (float)valueInDollars;
-- (void)setPurchaseSharePrice:(float)p;
-- (void)setCurrentSharePrice:(float)c;
-- (void)setNumberOfShares:(int)n;
 
 
 @end
