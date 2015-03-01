@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BNRStockHolding.h"
+#import "BNRForeignStockHolding.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -30,10 +30,16 @@ int main(int argc, const char * argv[]) {
         [third setCurrentSharePrice:49.51];
         [third setNumberOfShares:210];
         
+        BNRForeignStockHolding *fourth = [[BNRForeignStockHolding alloc] init];
+        [fourth setPurchaseSharePrice:2.30];
+        [fourth setCurrentSharePrice:4.50];
+        [fourth setNumberOfShares:40];
+        [fourth setConversionRate:0.94];
+        
         
         NSLog(@"Stocks purchased and added to array...");
         
-        NSArray *stocks = @[first, second, third];
+        NSArray *stocks = @[first, second, third, fourth];
         
         NSUInteger numberOfStocks = [stocks count];
         NSLog(@"There are %lu stocks in queue.\n", numberOfStocks);
