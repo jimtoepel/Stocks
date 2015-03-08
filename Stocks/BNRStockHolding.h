@@ -10,9 +10,10 @@
 
 @interface BNRStockHolding : NSObject
 
-@property (nonatomic) float purchaseSharePrice;
-@property (nonatomic) float currentSharePrice;
-@property (nonatomic) int   numberOfShares;
+@property (nonatomic)       float       purchaseSharePrice;
+@property (nonatomic)       float       currentSharePrice;
+@property (nonatomic)       int         numberOfShares;
+@property (nonatomic, copy) NSString    *stockTicker;
  
 // other methods go down here
 - (float)costInDollars;

@@ -22,4 +22,10 @@
 }
 
 
+- (NSString *)description;
+{
+    return [NSString stringWithFormat:@"Ticker: <%@>", self.stockTicker];
+}
+
+
 @end
