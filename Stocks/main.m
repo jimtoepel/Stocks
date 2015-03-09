@@ -50,7 +50,7 @@ int main(int argc, const char * argv[]) {
             float money = [s valueInDollars];
             NSString *ticker = [s description];
             NSLog(@"%@", ticker);
-            NSLog(@"%f", money);
+            NSLog(@"%.2f", money);
         }
         
     }
