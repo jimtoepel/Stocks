@@ -11,6 +11,15 @@
 
 @implementation BNRPortfolio
 
+-(void)setStocks:(NSArray *)a
+{
+    _portfolioStocks = [a mutableCopy];
+}
+
+-(NSArray *)portfolioStocks
+{
+    return[_portfolioStocks copy];
+}
 
 
 - (void)addStock:(BNRStockHolding *)a
@@ -34,6 +43,7 @@
     }
     return total;
 }
+
 
 
 @end

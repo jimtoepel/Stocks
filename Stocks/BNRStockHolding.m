@@ -29,4 +29,10 @@
 }
 
 
+
+-(void)dealloc
+{
+    NSLog(@"deallocating %@", self);
+}
+
 @end
