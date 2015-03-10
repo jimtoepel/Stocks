@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B1C4AE8F1A9C3B4200CAF7A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C4AE8E1A9C3B4200CAF7A6 /* main.m */; };
 		B1C4AE971A9C3BCF00CAF7A6 /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C4AE961A9C3BCF00CAF7A6 /* BNRStockHolding.m */; };
+		B1E55D4F1AAEAF92006DC6C2 /* BNRPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E55D4E1AAEAF92006DC6C2 /* BNRPortfolio.m */; };
 		B1F2AD181AA3B710000ADFD4 /* BNRForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F2AD171AA3B710000ADFD4 /* BNRForeignStockHolding.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		B1C4AE8E1A9C3B4200CAF7A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1C4AE951A9C3BCF00CAF7A6 /* BNRStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStockHolding.h; sourceTree = "<group>"; };
 		B1C4AE961A9C3BCF00CAF7A6 /* BNRStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStockHolding.m; sourceTree = "<group>"; };
+		B1E55D4D1AAEAF92006DC6C2 /* BNRPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPortfolio.h; sourceTree = "<group>"; };
+		B1E55D4E1AAEAF92006DC6C2 /* BNRPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPortfolio.m; sourceTree = "<group>"; };
 		B1F2AD161AA3B710000ADFD4 /* BNRForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRForeignStockHolding.h; sourceTree = "<group>"; };
 		B1F2AD171AA3B710000ADFD4 /* BNRForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRForeignStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				B1C4AE8E1A9C3B4200CAF7A6 /* main.m */,
+				B1E55D4D1AAEAF92006DC6C2 /* BNRPortfolio.h */,
+				B1E55D4E1AAEAF92006DC6C2 /* BNRPortfolio.m */,
 				B1C4AE951A9C3BCF00CAF7A6 /* BNRStockHolding.h */,
 				B1F2AD161AA3B710000ADFD4 /* BNRForeignStockHolding.h */,
 				B1F2AD171AA3B710000ADFD4 /* BNRForeignStockHolding.m */,
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F2AD181AA3B710000ADFD4 /* BNRForeignStockHolding.m in Sources */,
+				B1E55D4F1AAEAF92006DC6C2 /* BNRPortfolio.m in Sources */,
 				B1C4AE8F1A9C3B4200CAF7A6 /* main.m in Sources */,
 				B1C4AE971A9C3BCF00CAF7A6 /* BNRStockHolding.m in Sources */,
 			);
