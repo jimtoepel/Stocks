@@ -10,9 +10,7 @@
 @class BNRStockHolding;
 
 @interface BNRPortfolio : NSObject
-{
-    NSMutableArray *_portfolioStocks;
-}
+
 
 @property(nonatomic) float              portfolioValue;
 @property(nonatomic) NSMutableArray     *portfolioStocks;
