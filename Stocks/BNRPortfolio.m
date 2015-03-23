@@ -51,12 +51,6 @@
 - (void)removeStock:(BNRStockHolding *)a
 {
     [_portfolioStocks removeObject:a];
-/*    // Is portfolio nil?
-    if (!_portfolioStocks) {
-        
-        // create the array
-        _portfolioStocks = [[NSMutableArray alloc]init];
-    } */
 }
 
 
@@ -68,6 +62,11 @@
         total += [a valueInDollars];
     }
     return total;
+}
+
+- (void)topThree
+{
+    return;
 }
 
 

@@ -18,5 +18,7 @@
 -(float)totalValue;
 -(void)addStock:(BNRStockHolding *)a;
 -(void)removeStock:(BNRStockHolding *)a;
+-(void)topThree;
+
 
 @end
