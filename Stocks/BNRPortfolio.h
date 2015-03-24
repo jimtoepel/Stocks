@@ -19,6 +19,7 @@
 -(void)addStock:(BNRStockHolding *)a;
 -(void)removeStock:(BNRStockHolding *)a;
 -(void)topThree;
+-(void)alphaList;
 
 
 @end
