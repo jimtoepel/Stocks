@@ -64,15 +64,24 @@
     return total;
 }
 
-- (void)topThree
+- (NSArray *)mostValuableHoldings
 {
-    return;
+    NSSortDescriptor *vid = [NSSortDescriptor sortDescriptorWithKey:@"valueInDollars" ascending:NO];
+    NSMutableArray *sortedArray = [[NSMutableArray alloc] init];
+    sortedArray = _portfolioStocks;
+    [sortedArray sortUsingDescriptors:@[vid]];
+    
+    return @[sortedArray[0], sortedArray[1], sortedArray[2]];
 }
 
-
--(void)alphaList
+- (NSArray *)holdingsSortedBySymbol
 {
-    return;
+    NSSortDescriptor *s = [NSSortDescriptor sortDescriptorWithKey:@"symbol" ascending:YES];
+    NSMutableArray *sortedArray = [[NSMutableArray alloc] init];
+    sortedArray = _portfolioStocks;
+    [sortedArray sortUsingDescriptors:@[s]];
+    
+    return sortedArray;
 }
 
 

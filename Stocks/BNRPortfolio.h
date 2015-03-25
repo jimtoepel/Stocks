@@ -18,8 +18,8 @@
 -(float)totalValue;
 -(void)addStock:(BNRStockHolding *)a;
 -(void)removeStock:(BNRStockHolding *)a;
--(void)topThree;
--(void)alphaList;
+-(NSArray *)mostValuableHoldings;
+-(NSArray *)holdingsSortedBySymbol;
 
 
 @end
