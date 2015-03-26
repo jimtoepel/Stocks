@@ -64,7 +64,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"The total value of the Portfolio is: $%.02f", money);
         
         NSLog(@"Top 3 most valuable stocks are: %@", [stockList mostValuableHoldings]);
-//        NSLog(@"Sorted by symbol: %@", [stockList holdingsSortedBySymbol]);
+        NSLog(@"Sorted by symbol: %@", [stockList holdingsSortedBySymbol]);
         
         NSLog(@"Removing %@ stock", fourth);
         [stockList removeStock:fourth];

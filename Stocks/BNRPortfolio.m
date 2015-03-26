@@ -76,12 +76,10 @@
 
 - (NSArray *)holdingsSortedBySymbol
 {
-    NSSortDescriptor *s = [NSSortDescriptor sortDescriptorWithKey:@"symbol" ascending:YES];
-    NSMutableArray *sortedArray = [[NSMutableArray alloc] init];
-    sortedArray = _portfolioStocks;
-    [sortedArray sortUsingDescriptors:@[s]];
-    
-    return sortedArray;
+    NSMutableArray *sortedByAlpha = [_portfolioStocks mutableCopy];
+    NSSortDescriptor *s = [[NSSortDescriptor alloc] initWithKey:@"stockTicker" ascending:YES];
+    [sortedByAlpha sortUsingDescriptors:@[s]];
+    return sortedByAlpha;
 }
 
 
